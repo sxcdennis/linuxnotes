@@ -1,5 +1,5 @@
 # Common Tools and Commands
-These are common tools that will help list, create, delete, copy and move files and directories. Create hard and soft links. 
+These are common tools that will help list, create, delete, copy and move files and directories. Create hard and soft links.
 
 ## pwd
 Prints the current directory that you are in.
@@ -13,7 +13,7 @@ Lets say you're in `/etc/dhcp/dhclient.d` but you forgot where you are. You can 
 
 ## cd
 
-Short for change directory. Commonly used to change to and navigate direcotires.
+Short for change directory. Commonly used to change to and navigate directories.
 
 **Example:**
 
@@ -31,25 +31,3 @@ Use command `cd /etc/dhcp`
 Verify that you've moved to new location using `pwd`
 
 ![Step1](/imgs/common-commands/cd2.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
