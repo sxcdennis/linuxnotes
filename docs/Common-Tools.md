@@ -1,5 +1,6 @@
 # Common Tools and Commands
-These are common tools that will help list, create, delete, copy and move files and directories. Create hard and soft links.
+These are common tools that will help  create hard, soft links, and list, create, delete, copy and move files and directories.
+### Tools & Commands: ``` pwd, cd, ls, touch, cp, mv, ln, rm, mkdir, rmdir, alias, find, locate ```
 
 ## pwd
 Prints the current directory that you are in.
@@ -31,3 +32,43 @@ Use command `cd /etc/dhcp`
 Verify that you've moved to new location using `pwd`
 
 ![Step1](/imgs/common-commands/cd2.png)
+
+
+## ls
+
+Linux shell command that lists directory contents of files and directories. Can also be used to list security privileges of files & directories.
+
+ There are several flags/options for `ls` to view them use the command `ls --help`. 
+The most common options are:
+
+ ``` -a, -l, -Z, and --color=auto ```
+
+
+<b>-a:</b> Will list everything including hidden files. <br><br>
+<b>-l:</b> Will list all security privileges.<br> <br>
+<b>-Z:</b> Will list all security privileges and context<br> <br>
+<b>--color=auto:</b> Will help colorize by files and directories. Usually automatically set up as an alias already. Use command `alias` to see if it's already there.
+<br><br>
+
+### Examples
+
+<br>
+
+<b>Example 1:</b><br><br>
+![Example1](/imgs/common-commands/ls1.png)
+<br>
+Using `ls` alone in root folder, you can see that anaconda-ks.cfg is listed, but as you use `ls -a` you will notice hidden files are listed.<br><br>
+
+<b> Example 2:</b> <br><br>
+![Example2](/imgs/common-commands/ls2.png)<br>
+Using `ls -l` lists security privileges <br>
+
+<b>Example 3:</b><br><br>
+![Example3](/imgs/common-commands/ls3.png)<br>
+
+Using `ls -Z` will list all security privileges and context. 
+<br><br>
+
+<b> Example 4:</b> <br><br>
+![Example4](/imgs/common-commands/ls4.png)<br>
+Using `alias` you can see that `ls --color=auto` is already there.
